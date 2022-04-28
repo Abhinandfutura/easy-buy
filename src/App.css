@@ -1,38 +1,62 @@
-.App {
+.modal-content{
+  display: flex;
+  height: 500px;
+  width: 427px;
+  border-radius: 40px;
   text-align: center;
 }
+.Signup_container{
+  width: 369px;
+  text-align: center;
+  color: #17404dcf;;
+  font-size: 38px;
+  font-family: revert;
+  font-weight: 700;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+}
+.signup_modal{
+  margin-left:28px;
+}
+.Signup_label{
+
+  color: #17404dcf;
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.d-flex{
   flex-direction: column;
-  align-items: center;
+  text-align: left;
+  display:flex;
+ 
+    flex-direction:column
+}
+.inputSignup{
+  margin-right:27px;
+ 
+ margin-top:5px;
+  width: 330px;
+
+
+
+}
+.footSignup{
+  width:100%;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-top: 1px solid #17404d27
 }
-
-.App-link {
-  color: #61dafb;
+.Signup_btn{
+  
+ border-color: #17404dcf ;
+ color: #17404dcf;
+ background-color: white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Signup_btn:hover{
+  background-color:#17404dcf ;
+}
+.modalheader{
+  border-bottom:1px solid #17404d27
+}
+.label_container{
+  margin-top: 25px;
 }

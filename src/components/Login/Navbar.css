@@ -1,0 +1,171 @@
+.bg_img{
+    height:600vh;
+}
+
+
+
+.top{
+    width:100%;
+    height:40px;
+    
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ;
+}
+.top_ptag{
+    margin: 0;
+    color:white;
+    font-style: italic;
+}
+
+
+.navBar{
+
+    background-color: #C47171;
+    border-top: 1px solid white;
+    box-shadow: 0px 2px 0.8px white;
+
+}
+.nav_container{
+    height:80px;
+}
+.dashbord{
+    margin-top: 53px;
+}
+
+.Login_container{
+   
+    width: 100%;
+    height: 135vh;
+    display: flex;
+    justify-content: center;
+    margin-top:50px
+    
+}
+.contain{
+
+    position: absolute;
+    width:75%;
+    
+}
+.login_hr{
+    color: black;
+}
+.username_container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.username{
+    display: flex;
+    flex-direction: column;
+    margin-top: 23px;
+}
+
+.login_btn_container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top:626px;
+    height:40px;
+}
+.login_btn{
+    padding:10px;
+    width:137px;
+}
+.login_box{
+
+
+    padding: 10px;
+    border: 1px solid #00000054;
+    margin-top: 10px;
+
+
+}
+
+
+
+label{
+    font-size: 20px;
+    font-family: system-ui;
+}
+.login_btn{
+    position: absolute;
+   
+
+}
+
+
+
+.foot_container{
+    width:100%;
+    height:364px;
+    background-color:#C47171 ;
+   
+    justify-content: center;
+    align-items: center;
+}
+.foot_frame{
+  
+    height: 233px;
+    width: 95%;;
+    margin: auto;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+
+
+}
+ul li{
+    list-style: none;
+}
+.ptag{
+    color:white;
+   
+
+}
+.icon_1{
+    margin-right:10px;
+}
+.contact_us{
+    margin-bottom: 36px;;
+    margin-top: 74px;
+    font-size: 28px;
+
+}
+.hr_tag{
+    color:white;
+    width:100%;
+}
+.last_div{
+    width:60%;
+    display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.lastdiv_container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    width:234px;
+}
+.body_img{
+    height:600px;
+    width:100%;
+    position:relative;
+    box-shadow: 0px 2px 0.8px white;
+    object-fit:fill;
+
+}
+.errortag{
+    color:red;
+
+}

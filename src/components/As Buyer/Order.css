@@ -1,0 +1,22 @@
+.card_order{
+    width:100%;
+    display: flex;
+   
+}
+
+
+.modal-content{
+    height:273px;
+    border-radius:20px
+}
+.feed{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    margin:15px;
+}
+.feed_btn{
+    width: 100px;
+    border-radius: 18px;
+
+}

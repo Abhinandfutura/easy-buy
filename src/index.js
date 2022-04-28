@@ -3,10 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Contex1 from './components/Admin/context/Contex1';
+
 
 ReactDOM.render(
   <React.StrictMode>
+ <Contex1>
     <App />
+  
+    </Contex1>
   </React.StrictMode>,
   document.getElementById('root')
 );
